@@ -1,0 +1,22 @@
+==========================================
+   RAPORT OPTYMALIZACJI GENETYCZNEJ (SGA) 
+   Data: 2026-04-08 19:34:26
+==========================================
+
+--- KONFIGURACJA ---
+Liczba zmiennych (N): 2
+Wielkość populacji:   100
+Liczba epok:          500
+Metoda selekcji:      Tournament
+Metoda krzyżowania:   Single-Point
+Prawd. Mutacji:       0.05
+------------------------------------------
+
+--- WYNIK KOŃCOWY ---
+Najlepszy Fitness: -78.332323
+
+--- ZDEKODOWANE WARTOŚCI ZMIENNYCH (X) ---
+ x01:  -2.902830
+ x02:  -2.903440
+
+==========================================

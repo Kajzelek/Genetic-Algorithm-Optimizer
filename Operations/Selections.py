@@ -10,6 +10,8 @@ def select_tournament(population, tournament_size):
     return winner
 
 def select_roulette(population):
+    # im mniejszy fitness, tym większy score
+    # 1e-10 jest po to, żeby najgorszy osobnik nie miał 0% szansy
     total_fitness = sum(1.0 / (ind.fitness + 1e-10) for ind in population)
     pick = random.uniform(0, total_fitness)
 
